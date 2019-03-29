@@ -1,0 +1,10 @@
+1. feature.h中的f(frame->cam_->cam2world(px))  转换为单位球坐标?????????
+2. initialize.cpp中207行 c2f将像素坐标转换为单位球坐标  这里转换的意义在哪里？？？后面计算单应矩阵的时候  又转换回了像素坐标
+3. initialize.cpp 77 cam_->errorMultiplier2()这个函数返回的是什么?焦距么
+
+
+一开始的那个三角化  是第一帧和第二帧的三角化 初始化地图点  为什么不能用呢????
+
+当前帧的fts_怎么初始化的
+candidates_怎么初始化的
+point对应的特征.
